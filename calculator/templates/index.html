@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<section>
+
+  <div>
+    <div>
+        <div class="wd-e">
+            <div>
+                 <h2>CALCULATOR</h2>
+            </div>
+            <div class="call">
+                <table>
+                    <tr>
+                        <td class="task">
+                            <input style="width: 294px; height: 39px;" class="show" id="showdata">
+                        </td>
+                        <td>
+                            <input  class="btn btn-secondary" value="C" onclick="clear()" >
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                       <td><input  class="btn btn-secondary" onclick="display('1')" value="1"></td>
+                       <td><input  class="btn btn-secondary" onclick="display('2')" value="2"></td>
+                       <td><input  class="btn btn-secondary" onclick="display('3')" value="3"></td>
+                       <td><input  class="btn btn-secondary" onclick="display('/')" value="/"></td>
+                    </tr>
+                    <tr>
+                        <td><input  class="btn btn-secondary" onclick="display('4')" value="4"></td>
+                        <td><input  class="btn btn-secondary" onclick="display('5')" value="5"></td>
+                        <td><input  class="btn btn-secondary" onclick="display('6')" value="6"></td>
+                        <td><input  class="btn btn-secondary" onclick="display('*')" value="*"></td>
+                    </tr>
+                    <tr>
+                        <td><input  class="btn btn-secondary" onclick="display('7')" value="7"></td>
+                        <td><input  class="btn btn-secondary" onclick="display('8')" value="8"></td>
+                        <td><input  class="btn btn-secondary" onclick="display('9')" value="9"></td>
+                        <td><input  class="btn btn-secondary" onclick="display('-')" value="-"></td>
+                    </tr>
+                    <tr>
+                        <td><input  class="btn btn-secondary" onclick="display('0')" value="0"></td>
+                        <td><input  class="btn btn-secondary" onclick="display('.')" value="."></td>
+                        <td><input  class="btn btn-secondary" onclick="calculat()" value="="></td> 
+                        <td><input  class="btn btn-secondary" onclick="display('+')" value="+"></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+{% endblock content %}
+
+

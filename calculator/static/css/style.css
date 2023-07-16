@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* background-color: #cbd5e1; */
+}
+
+.wd-e{
+    width: 27%;
+    margin: auto;
+
+}
+
+input{
+    width: 90px;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin: 6px 6px 6px 6px;
+}
+
+
+.task{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 304px;
+}
+
+.call{
+    box-sizing: border-box;
+    border: 2px solid grey;
+}
